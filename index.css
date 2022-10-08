@@ -1,0 +1,75 @@
+@import url(//db.onlinewebfonts.com/c/05b45c19e2f09f11f6f56c1ed5e0e981?family=RussianRail+G+Pro);
+
+.page {
+  /* min-width: 1100px;
+  max-width: 1600px; */
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0 auto;
+  height: 50px;
+  /* box-shadow: 0px 1px 3px rgb(0 0 0 / 10%); */
+}
+
+.header__logo {
+  margin: 10px 30px;
+  max-width: 90px;
+  max-height: 40px;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.content__titile {
+  font-family: "RussianRail G Pro";
+  margin: 250px 0 10px 0;
+  text-align: center;
+  font-weight: 600;
+  color: #f3513f;
+}
+
+@media screen and (max-width:768px) {
+  .content__titile {
+    margin-top: 100px;
+  }
+}
+
+.content__subtitle {
+  font-family: "RussianRail G Pro";
+  margin: 0px 0 30px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content__input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.content__login {
+  padding: 0 0 0 5px;
+  height: 22px;
+  margin-bottom: 5px;
+}
+
+.content__password {
+  padding: 0 0 0 5px;
+  height: 22px;
+  margin-bottom: 5px;
+}
+
+.content__block {
+  text-align: center;
+}
+
+.content__info {
+  max-width: 400px;
+  margin: 30px auto;
+}
+

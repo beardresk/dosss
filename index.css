@@ -6,27 +6,48 @@
   width: 100%;
   min-height: 100%;
   margin: 0 auto;
+  background-image: url(./images/sapsan.jpg);
+  /* background-image: url(./images/sapsanLastochka.jpg);*/
+  /* background-repeat: no-repeat;
+  background-size: 100%;  */
 }
 
 .header {
   margin: 0 auto;
+  background-color: white;
   height: 50px;
-  /* box-shadow: 0px 1px 3px rgb(0 0 0 / 10%); */
+  box-shadow: 2px 2px 5px rgb(122 122 122 / 50%);
 }
 
 .header__logo {
-  margin: 10px 30px;
+  margin: 5px 30px;
   max-width: 90px;
   max-height: 40px;
 }
 
+.header__block {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .content {
   margin: 0 auto;
+  background-color: white;
+  max-width: 450px;
+  min-height: 280px;
+  border-radius: 13px;
 }
+/* 
+@media screen and (max-width:568px) {
+  .content {
+    max-width: 450px;
+  }
+} */
 
 .content__titile {
   font-family: "RussianRail G Pro";
-  margin: 250px 0 10px 0;
+  margin: 0 auto;
+  padding-top: 20px;
   text-align: center;
   font-weight: 600;
   color: #f3513f;
@@ -40,7 +61,7 @@
 
 .content__subtitle {
   font-family: "RussianRail G Pro";
-  margin: 0px 0 30px 0;
+  margin: 0px 0 20px 0;
   font-size: 20px;
   text-align: center;
 }
@@ -49,7 +70,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .content__login {
@@ -64,12 +85,20 @@
   margin-bottom: 5px;
 }
 
+.content__btn {
+ cursor: pointer;
+}
+
 .content__block {
   text-align: center;
 }
 
 .content__info {
   max-width: 400px;
-  margin: 30px auto;
+  margin: 20px auto;
+}
+
+.loginBox {
+  margin-top: 250px;
 }
 

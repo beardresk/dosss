@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descrpition" content="Место - сайт где вы сможете хранить свои фото-карточки.">
+  <link rel="stylesheet" href="/normalize.css">
+  <link rel="stylesheet" href="/indexStart.css">
+  <link rel="stylesheet" href="/menu.css">
+  <link href="//db.onlinewebfonts.com/c/05b45c19e2f09f11f6f56c1ed5e0e981?family=RussianRail+G+Pro" rel="stylesheet" type="text/css"/>
+  <title>Тех.видео</title>
+  <link>
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__block">
+      <input type="checkbox" id="nav-toggle" hidden><label for="nav-toggle" class="mask-content" onclick=""></label>
+      <label for="nav-toggle" class="nav-toggle"></label>
+      <div class="nav">
+        <ul>
+          <li><a href="./?content">Весь контент</a>
+            <li><a href="./?profile">Профиль</a>
+              <li><a href="./?mess">Сообщения</a>
+                <li><a href="./?exit">Выход</a>
+                </ul>
+              </div>	<div class="wrapper">
+      <img class="header__logo" src="/images/logo.png" alt="логотип ржд">
+    </div>
+  </header>
+  <main class="content">
+    <div class="search__div">
+      <form  class="content__search" action="./?search" method="get"> 
+        <input class="content__searchbtn" type="text" name="search" value="" id="sch" placeholder="поиск">
+        <input class="content__searchlupa" type="submit" value="🔍"> 
+      </form>
+      <a class="btn__glavstr" href='./'>Главная страница</a><br /><br/>
+
+      <div id="main">
+				<div class="button__rail" id="sections">
+            
+            <button class="button__click" onclick="window.location='./?section=23'">Ласточка</button> 
+            <button class="button__click" onclick="window.location='./?section=24'">Сапсан</button> 
+            <button class="button__click" onclick="window.location='./?section=25'">Нестандартные ситуации</button> 			
+          	</div>
+  </div>
+  </main>
+  <script src="./mask.js"></script>
+</body>
+</html>

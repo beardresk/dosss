@@ -12,6 +12,22 @@
   background-size: 100%;  */
 }
 
+@media screen and (max-width:768px) {
+  .page {
+    /* background-color: wheat; */
+    background-image: url("./images/tabletPC.jpg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .page {
+    /* background-color: wheat; */
+    background-image: url("./images/pixel.jpg");
+    background-repeat: no-repeat;
+  }
+}
+
 .header {
   margin: 0 auto;
   background-color: white;
@@ -100,5 +116,13 @@
 
 .loginBox {
   margin-top: 250px;
+}
+
+
+@media screen and (max-width:400px) {
+  .loginBox {
+    /* background-color: wheat; */
+   margin-top: 100px;
+  }
 }
 

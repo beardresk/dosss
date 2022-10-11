@@ -64,9 +64,22 @@
   max-width: 150px;
   width: 100%;  
   padding: 0;
-  font-weight: 700;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .button__click:last-child {
   margin-right: 0;
 }
+
+.btn__glavstr {
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  left: 3px;
+  top: 10px
+}
+
+
